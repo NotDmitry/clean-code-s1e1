@@ -1,7 +1,7 @@
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
-  color: #333;
+  color: #333333;
   font-family: Lato, sans-serif;
 }
 .header {
@@ -53,7 +53,7 @@ button{
 .add-task-btn {
   background: none;
   border: 0px;
-  color: #888;
+  color: #888888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
@@ -67,10 +67,10 @@ button{
 /* Heading */
 .subtitle,
 .task-input-caption {
-  color: #333;
+  color: #333333;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #333333;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
@@ -81,14 +81,14 @@ button{
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #ddd;
-  background: #fff;
+  border: 1px solid #dddddd;
+  background: #ffffff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #888;
+  color: #888888;
 }
 .task-edit:focus {
-  color: #333;
+  color: #333333;
 }
 
 /* New Task */
@@ -104,7 +104,7 @@ button{
 .list-item {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
 
   display: flex;
   justify-content: space-between;
@@ -138,7 +138,7 @@ button{
 /* Completed */
 #completed-tasks .task {
   text-decoration: line-through;
-  color: #888;
+  color: #888888;
 }
 
 /* Edit Task */
