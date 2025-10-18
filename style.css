@@ -54,7 +54,7 @@ li,
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -140,7 +140,7 @@ button{
   width: 226px;
 }
 
-.list-item >    .task-edit {
+.list-item > .task-edit {
   width: 226px;
 }
 
