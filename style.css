@@ -37,14 +37,14 @@
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, .subtitle {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .delete-task,
 .edit,
@@ -141,14 +141,14 @@ input,button{
 
 /* Edit Task */
 .list-item .task-edit {
-  display:none;
+  display: none;
 }
 
 .under-edit .task-edit {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .under-edit .task {
-  display:none;
+  display: none;
 }
