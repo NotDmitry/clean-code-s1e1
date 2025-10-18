@@ -13,7 +13,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .more-info-link {
+.header .ref-link {
   font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 .header { text-align: center;
 }
 }
-.page-main-content-container {
+.main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.create-task-form {
+.add-task-form {
   display: flex;
 }
 ul {
@@ -58,7 +58,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='create-task-input'] {
+label[for='task-input'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -84,11 +84,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='create-task-input'] {
+label[for='task-input'] {
   display: block;
   margin: 0 0 20px;
 }
-input#create-task-input {
+input#task-input {
   width: 318px;
 }
 
@@ -138,11 +138,11 @@ ul li input[type=text] {
   display:none;
 }
 
-ul li.task-edit-mode input[type=text] {
+ul li.under-edit input[type=text] {
   display:inline-block;
   width:224px;
 }
 
-ul li.task-edit-mode label {
+ul li.under-edit label {
   display:none;
 }
