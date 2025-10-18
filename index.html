@@ -6,52 +6,56 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <div class="header">
+    <article class="header">
       <img class="eisenhower-matrix" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix working principle screenshot">
       <a class="ref-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main-content">
-      <p id="top-section-for-adding-element-to-list">
-        <label class="task-input-caption" for="task-input">Add Item</label>
-        <div class="add-task-form">
+    </article>
+    <main class="main-content">
+      <section id="top-section-for-adding-element-to-list">
+        <h2 class="task-input-caption">Add Item</h2>
+        <form class="add-task-form">
           <input id="task-input" class="task-edit" type="text">
-          <button class="add-task-btn">Add</button>
-        </div>
-      </p>
-      <h3 class="subtitle">Todo</h3>
-      <ul id="incomplete-tasks">
-        <li class="list-item">
-          <input class="check-btn" type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task-edit">
-          <button class="edit">Edit</button>
-          <button class="delete-task">
-            <img class="delete-icon" src="./remove.svg" alt="Remove task icon">
-          </button>
-        </li>
-        <li class="list-item under-edit">
-          <input class="check-btn" type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="go shopping" class="task-edit">
-          <button class="edit">Save</button>
-          <button class="delete-task">
-            <img class="delete-icon" src="./remove.svg" alt="Remove task icon">
-          </button>
-        </li>
-      </ul>
-      <h3 class="subtitle">Completed</h3>
-      <ul id="completed-tasks">
-        <li class="list-item">
-          <input class="check-btn" type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task-edit">
-          <button class="edit">Edit</button>
-          <button class="delete-task">
-            <img class="delete-icon" src="./remove.svg" alt="Remove task icon">
-          </button>
-        </li>
-      </ul>
-    </div>
+          <button class="add-task-btn" type="button">Add</button>
+        </form>
+      </section>
+      <section class="active-tasks">
+        <h2 class="subtitle">Todo</h2>
+        <ul id="incomplete-tasks">
+          <li class="list-item">
+            <input class="check-btn" type="checkbox">
+            <output class="task">Pay Bills</output>
+            <input type="text" class="task-edit">
+            <button class="edit">Edit</button>
+            <button class="delete-task">
+              <img class="delete-icon" src="./remove.svg" alt="Remove task icon">
+            </button>
+          </li>
+          <li class="list-item under-edit">
+            <input class="check-btn" type="checkbox">
+            <label class="task">Go Shopping</label>
+            <input type="text" value="go shopping" class="task-edit">
+            <button class="edit">Save</button>
+            <button class="delete-task">
+              <img class="delete-icon" src="./remove.svg" alt="Remove task icon">
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="completed-tasks">
+        <h2 class="subtitle">Completed</h2>
+        <ul id="completed-tasks">
+          <li class="list-item">
+            <input class="check-btn" type="checkbox" checked>
+            <label class="task">See the Doctor</label>
+            <input type="text" class="task-edit">
+            <button class="edit">Edit</button>
+            <button class="delete-task">
+              <img class="delete-icon" src="./remove.svg" alt="Remove task icon">
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
